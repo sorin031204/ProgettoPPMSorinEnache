@@ -39,6 +39,7 @@
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", "Helvetica", "sans-serif";
@@ -204,6 +205,11 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+  .container {
+    padding: 0 20px;
+  }
+
   #social,
   #help {
     display: none;
@@ -218,13 +224,14 @@ body {
 
   #top-header {
     grid-template-columns: 1fr auto;
+    gap: 12px;
     border-bottom: 1px solid #e0e0e0
   }
 
   #foto-logo {
     order: 1;
     justify-self: start;
-    padding-left: 100px;
+    padding-left: auto;
   }
 
   #social {
