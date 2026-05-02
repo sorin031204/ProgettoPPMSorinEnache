@@ -218,6 +218,7 @@ body {
 
   #top-header {
     grid-template-columns: 1fr auto;
+    border-bottom: 1px solid #e0e0e0
   }
 
   #foto-logo {
