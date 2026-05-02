@@ -169,17 +169,14 @@ body {
 
 #mobile-buttons {
   display: none;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 24px;
-  padding: 12px 0 0;
+  grid-column: 3;
 }
 
 .mobile-support-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 6px;
+  padding: 10px 12px;
   background: #f7941e;
   color: #ffffff;
   text-decoration: none;
@@ -243,13 +240,13 @@ body {
 #main-nav {
   overflow: visible;
   width: 100%;
-  border-bottom: 1px solid #f7941e;
   padding: 0 0;
 }
 
 #main-nav .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #f7941e;
   padding-left: 0;
 }
 
